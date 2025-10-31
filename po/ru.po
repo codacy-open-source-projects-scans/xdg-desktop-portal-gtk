@@ -1,0 +1,301 @@
+# Russian translation for xdg-desktop-portal-gtk.
+# Copyright (C) 2019 xdg-desktop-portal-gtk's COPYRIGHT HOLDER
+# This file is distributed under the same license as the xdg-desktop-portal-gtk package.
+# Andrew Sazonow <sazonow1980.@gmail.com>, 2019.
+# Артемий Судаков <finziyr@yandex.ru>, 2020.
+# Ivan Molodetskikh <yalterz@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xdg-desktop-portal-gtk master\n"
+"Report-Msgid-Bugs-To: https://github.com/flatpak/xdg-desktop-portal-gtk/"
+"issues\n"
+"POT-Creation-Date: 2023-09-01 03:33+0000\n"
+"PO-Revision-Date: 2023-12-22 22:56+0300\n"
+"Last-Translator: Aleksandr Melman <Alexmelman88@gmail.com>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: data/xdg-desktop-portal-gtk.desktop.in.in:4
+msgid "Portal"
+msgstr "Портал"
+
+#: src/access.c:271
+msgid "Deny Access"
+msgstr "Отказать в доступе"
+
+#: src/access.c:274
+msgid "Grant Access"
+msgstr "Предоставить доступ"
+
+#: src/accountdialog.c:176
+msgid "Select an Image"
+msgstr "Выбрать изображение"
+
+#: src/accountdialog.c:179 src/wallpaperdialog.ui:18
+msgid "Cancel"
+msgstr "Отменить"
+
+#: src/accountdialog.c:180
+msgid "Select"
+msgstr "Выбрать"
+
+#: src/accountdialog.c:181
+msgid "Clear"
+msgstr "Очистить"
+
+#: src/accountdialog.c:195
+msgid "Images"
+msgstr "Изображения"
+
+#: src/accountdialog.c:272
+#, c-format
+msgid "Share your personal information with %s?"
+msgstr "Дать приложению «%s» доступ к вашей личной информации?"
+
+#: src/accountdialog.c:275
+msgid "Share your personal information with the requesting application?"
+msgstr "Дать запрашивающему приложению доступ к вашей личной информации?"
+
+#: src/accountdialog.ui:10
+msgid "Share Details"
+msgstr "Подробности"
+
+#: src/accountdialog.ui:14 src/appchooserdialog.ui:14
+#: src/dynamic-launcher.c:267 src/filechooser.c:468
+msgid "_Cancel"
+msgstr "_Отменить"
+
+#: src/accountdialog.ui:22
+msgid "_Share"
+msgstr "_Дать доступ"
+
+#: src/accountdialog.ui:148
+msgid "Make changes before sharing the information"
+msgstr "Внесите изменения, прежде чем делиться информацией"
+
+#: src/appchooserdialog.c:229
+msgid "Failed to start Software"
+msgstr "Не удалось запустить Центр приложений"
+
+#: src/appchooserdialog.c:385
+#, c-format
+msgid "Choose an application to open the file “%s”."
+msgstr "Выберите приложение для открытия «%s»."
+
+#: src/appchooserdialog.c:390
+msgid "Choose an application."
+msgstr "Выберите приложение."
+
+#: src/appchooserdialog.c:407
+#, c-format
+msgid ""
+"No apps installed that can open “%s”. You can find more applications in "
+"Software"
+msgstr ""
+"Нет установленных приложений, способных открыть «%s». Вы можете найти больше "
+"приложений в Центре приложений"
+
+#: src/appchooserdialog.c:412
+msgid "No suitable app installed. You can find more applications in Software."
+msgstr ""
+"Не найдено подходящее установленное приложение. Вы можете найти больше "
+"приложений в Центре приложений."
+
+#: src/appchooserdialog.ui:10
+msgid "Open With…"
+msgstr "Открыть с помощью…"
+
+#: src/appchooserdialog.ui:23 src/filechooser.c:463
+msgid "_Open"
+msgstr "_Открыть"
+
+#: src/appchooserdialog.ui:115
+msgid "No Apps available"
+msgstr "Нет доступных приложений"
+
+#: src/appchooserdialog.ui:159
+msgid "_Find More in Software"
+msgstr "_Найти в Центре приложений"
+
+#: src/dynamic-launcher.c:259
+msgid "Create Web Application"
+msgstr "Создать веб-приложение"
+
+#: src/dynamic-launcher.c:261
+msgid "Create Application"
+msgstr "Создать приложение"
+
+#: src/dynamic-launcher.c:269
+msgid "C_reate"
+msgstr "С_оздать"
+
+#: src/filechooser.c:463
+msgid "_Select"
+msgstr "_Выбрать"
+
+#: src/filechooser.c:465
+msgid "_Save"
+msgstr "_Сохранить"
+
+#: src/filechooser.c:647
+msgid "Open files read-only"
+msgstr "Открыть файлы только для чтения"
+
+#: src/settings.c:216
+msgid "Requested setting not found"
+msgstr "Запрашиваемая настройка не найдена"
+
+# В текущей версии диалога ширина по умолчанию достаточно маленькая, поэтому длинная фраза не влезает без многоточия.
+#: src/wallpaperdialog.ui:13
+msgid "Set Background"
+msgstr "Установить как фон"
+
+#: src/wallpaperdialog.ui:26
+msgid "Set"
+msgstr "Установить"
+
+#: src/wallpaperdialog.ui:57
+msgid "Failed to load image file"
+msgstr "Не удалось загрузить файл изображения"
+
+#: src/wallpaperpreview.ui:57
+msgid "Activities"
+msgstr "Обзор"
+
+#, c-format
+#~ msgid "“%s” is running in the background"
+#~ msgstr "Приложение «%s» работает в фоне"
+
+#~ msgid ""
+#~ "This might be for a legitimate reason, but the application has not "
+#~ "provided one.\n"
+#~ "\n"
+#~ "Note that forcing an application to quit might cause data loss."
+#~ msgstr ""
+#~ "Возможно, так и должно быть, но приложение не предоставило явной "
+#~ "причины.\n"
+#~ "\n"
+#~ "Обратите внимание, что принудительное завершение приложения может "
+#~ "привести к потере данных."
+
+#~ msgid "Force quit"
+#~ msgstr "Завершить принудительно"
+
+#~ msgid "Allow"
+#~ msgstr "Разрешить"
+
+#~ msgid "Background activity"
+#~ msgstr "Фоновая активность"
+
+#~ msgid "Find out more"
+#~ msgstr "Узнать больше"
+
+#~ msgid "Pointer"
+#~ msgstr "Курсор мыши"
+
+#~ msgid "Keyboard"
+#~ msgstr "Клавиатура"
+
+#~ msgid "Touch screen"
+#~ msgstr "Сенсорный экран"
+
+#, c-format
+#~ msgid "Select devices to share with %s"
+#~ msgstr "Выберите устройства для совместного использования с «%s»"
+
+#~ msgid "Select devices to share with the requesting application"
+#~ msgstr ""
+#~ "Выберите устройства для совместного использования с запрашивающим "
+#~ "приложением"
+
+#~ msgid "Remote desktop"
+#~ msgstr "Удалённый рабочий стол"
+
+#~ msgid "Screen Share"
+#~ msgstr "Доступ к экрану"
+
+#, c-format
+#~ msgid "Select monitor to share with %s"
+#~ msgstr "Выберите монитор, который сможет записывать «%s»"
+
+#, c-format
+#~ msgid "Select window to share with %s"
+#~ msgstr "Выберите окно, которое сможет записывать «%s»"
+
+#~ msgid "Select monitor to share with the requesting application"
+#~ msgstr ""
+#~ "Выберите монитор, который сможет записывать запрашивающее приложение"
+
+#~ msgid "Select window to share with the requesting application"
+#~ msgstr "Выберите окно, которое сможет записывать запрашивающее приложение"
+
+#~ msgid "Single Window"
+#~ msgstr "Одно окно"
+
+#~ msgid "Entire Screen"
+#~ msgstr "Весь экран"
+
+#, c-format
+#~ msgid "Share this screenshot with %s?"
+#~ msgstr "Дать приложению «%s» доступ к этому снимку экрана?"
+
+#~ msgid "Share this screenshot with the requesting application?"
+#~ msgstr "Дать запрашивающему приложению доступ к этому снимку экрана?"
+
+#~ msgid "Screenshot"
+#~ msgstr "Снимок экрана"
+
+#~ msgid "_Options…"
+#~ msgstr "_Варианты…"
+
+#~ msgid "Take _Screenshot"
+#~ msgstr "Сделать _снимок экрана"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Сделать снимок экрана"
+
+#~ msgid "Grab the whole sc_reen"
+#~ msgstr "Снимок всего эк_рана"
+
+#~ msgid "Grab the current _window"
+#~ msgstr "Снимок текущего о_кна"
+
+#~ msgid "Select _area to grab"
+#~ msgstr "Выбрать _область для снимка"
+
+#~ msgid "Grab after a _delay of"
+#~ msgstr "_Задержка перед снимком"
+
+#~ msgid "seconds"
+#~ msgstr "сек"
+
+#~ msgid "Effects"
+#~ msgstr "Эффекты"
+
+#~ msgid "Include _pointer"
+#~ msgstr "Показать курсор _мыши"
+
+#~ msgid "Include the window _border"
+#~ msgstr "Показать _границу окна"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Username"
+#~ msgstr "Имя пользователя"
+
+#~ msgid "Allow remote interaction"
+#~ msgstr "Разрешить удалённое взаимодействие"
+
+#~ msgid "Virtual monitor"
+#~ msgstr "Виртуальный монитор"
+
+#~ msgid "Remember this selection"
+#~ msgstr "Запомнить этот выбор"

@@ -1,0 +1,166 @@
+# Hindi translation for xdg-desktop-portal-gtk.
+# Copyright (C) 2021 xdg-desktop-portal-gtk's COPYRIGHT HOLDER
+# This file is distributed under the same license as the xdg-desktop-portal-gtk package.
+# Translators:
+# Dmitry <dmitrydmitry761@gmail.com>, 2021.
+# Hemish <hemish04082005@gmail.com>, 2022.
+# Scrambled777 <weblate.scrambled777@simplelogin.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xdg-desktop-portal-gtk master\n"
+"Report-Msgid-Bugs-To: https://github.com/flatpak/xdg-desktop-portal-gtk/"
+"issues\n"
+"POT-Creation-Date: 2024-05-18 03:33+0000\n"
+"PO-Revision-Date: 2024-05-18 10:05+0530\n"
+"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
+"Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 46.1\n"
+
+#: data/xdg-desktop-portal-gtk.desktop.in.in:4
+msgid "Portal"
+msgstr "पोर्टल"
+
+#: src/access.c:271
+msgid "Deny Access"
+msgstr "पहुंच अस्वीकारें"
+
+#: src/access.c:274
+msgid "Grant Access"
+msgstr "पहुंच स्वीकारें"
+
+#: src/accountdialog.c:176
+msgid "Select an Image"
+msgstr "एक छवि चुनें"
+
+#: src/accountdialog.c:179 src/wallpaperdialog.ui:18
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: src/accountdialog.c:180
+msgid "Select"
+msgstr "चुनें"
+
+#: src/accountdialog.c:181
+msgid "Clear"
+msgstr "साफ करे"
+
+#: src/accountdialog.c:195
+msgid "Images"
+msgstr "छवियां"
+
+#: src/accountdialog.c:272
+#, c-format
+msgid "Share your personal information with %s?"
+msgstr "%s के साथ अपनी व्यक्तिगत जानकारी साझा करें?"
+
+#: src/accountdialog.c:275
+msgid "Share your personal information with the requesting application?"
+msgstr "अनुरोध करने वाले अनुप्रयोग के साथ अपनी व्यक्तिगत जानकारी साझा करें?"
+
+#: src/accountdialog.ui:10
+msgid "Share Details"
+msgstr "जानकारी साझा करें"
+
+#: src/accountdialog.ui:14 src/appchooserdialog.ui:14
+#: src/dynamic-launcher.c:267 src/filechooser.c:468
+msgid "_Cancel"
+msgstr "रद्द करें (_C)"
+
+#: src/accountdialog.ui:22
+msgid "_Share"
+msgstr "साझा करें (_S)"
+
+#: src/accountdialog.ui:148
+msgid "Make changes before sharing the information"
+msgstr "जानकारी साझा करने से पहले बदलाव करें"
+
+#: src/appchooserdialog.c:229
+msgid "Failed to start Software"
+msgstr "सॉफ्टवेयर प्रारंभ करने में विफल"
+
+#: src/appchooserdialog.c:385
+#, c-format
+msgid "Choose an application to open the file “%s”."
+msgstr "फाइल “%s” को खोलने के लिए एक अनुप्रयोग चुनें।"
+
+#: src/appchooserdialog.c:390
+msgid "Choose an application."
+msgstr "एक अनुप्रयोग चुनें।"
+
+#: src/appchooserdialog.c:407
+#, c-format
+msgid ""
+"No apps installed that can open “%s”. You can find more applications in "
+"Software"
+msgstr ""
+"कोई ऐप स्थापित नहीं है जो “%s” खोल सके। आप 'सॉफ्टवेयर' में और भी अनुप्रयोग पा सकते हैं"
+
+#: src/appchooserdialog.c:412
+msgid "No suitable app installed. You can find more applications in Software."
+msgstr "कोई उपयुक्त ऐप स्थापित नहीं है। आप 'सॉफ्टवेयर' में और अनुप्रयोग पा सकते हैं।"
+
+#: src/appchooserdialog.ui:10
+msgid "Open With…"
+msgstr "इससे खोलें…"
+
+#: src/appchooserdialog.ui:23 src/filechooser.c:463
+msgid "_Open"
+msgstr "खोलें (_O)"
+
+#: src/appchooserdialog.ui:115
+msgid "No Apps available"
+msgstr "कोई ऐप उपलब्ध नहीं है"
+
+#: src/appchooserdialog.ui:159
+msgid "_Find More in Software"
+msgstr "'सॉफ्टवेयर' में अधिक पाएं (_F)"
+
+#: src/dynamic-launcher.c:259
+msgid "Create Web Application"
+msgstr "वेब अनुप्रयोग बनाएं"
+
+#: src/dynamic-launcher.c:261
+msgid "Create Application"
+msgstr "अनुप्रयोग बनाएं"
+
+#: src/dynamic-launcher.c:269
+msgid "C_reate"
+msgstr "बनाएं (_r)"
+
+#: src/filechooser.c:463
+msgid "_Select"
+msgstr "चुनें (_S)"
+
+#: src/filechooser.c:465
+msgid "_Save"
+msgstr "सहेजें (_S)"
+
+#: src/filechooser.c:647
+msgid "Open files read-only"
+msgstr "फाइलें केवल-पढ़ने के लिए खोलें"
+
+#: src/settings.c:239
+msgid "Requested setting not found"
+msgstr "अनुरोधित सेटिंग नहीं मिली"
+
+#: src/wallpaperdialog.ui:13
+msgid "Set Background"
+msgstr "पृष्ठभूमि निर्धारित करें"
+
+#: src/wallpaperdialog.ui:26
+msgid "Set"
+msgstr "निर्धारित करें"
+
+#: src/wallpaperdialog.ui:57
+msgid "Failed to load image file"
+msgstr "छवि फाइल लोड करने में विफल"
+
+#: src/wallpaperpreview.ui:57
+msgid "Activities"
+msgstr "गतिविधियां"

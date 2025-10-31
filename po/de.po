@@ -1,0 +1,319 @@
+# German translation for xdg-desktop-portal-gtk.
+# Copyright (C) 2016 xdg-desktop-portal-gtk's COPYRIGHT HOLDER
+# This file is distributed under the same license as the xdg-desktop-portal-gtk package.
+# Christian Kirbach <Christian.Kirbach@gmail.com>, 2016, 2018.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2018.
+# Ettore Atalan <atalanttore@gmail.com>, 2022.
+# Jürgen Benvenuti <gastornis@posteo.org>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xdg-desktop-portal-gtk master\n"
+"Report-Msgid-Bugs-To: https://github.com/flatpak/xdg-desktop-portal-gtk/"
+"issues\n"
+"POT-Creation-Date: 2023-09-12 15:31+0000\n"
+"PO-Revision-Date: 2023-09-12 20:10+0200\n"
+"Last-Translator: Jürgen Benvenuti <gastornis@posteo.org>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: data/xdg-desktop-portal-gtk.desktop.in.in:4
+msgid "Portal"
+msgstr "Portal"
+
+#: src/access.c:271
+msgid "Deny Access"
+msgstr "Zugriff verweigern"
+
+#: src/access.c:274
+msgid "Grant Access"
+msgstr "Zugriff gewähren"
+
+#: src/accountdialog.c:176
+msgid "Select an Image"
+msgstr "Ein Bild auswählen"
+
+#: src/accountdialog.c:179 src/wallpaperdialog.ui:18
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/accountdialog.c:180
+msgid "Select"
+msgstr "Auswählen"
+
+#: src/accountdialog.c:181
+msgid "Clear"
+msgstr "Löschen"
+
+#: src/accountdialog.c:195
+msgid "Images"
+msgstr "Bilder"
+
+#: src/accountdialog.c:272
+#, c-format
+msgid "Share your personal information with %s?"
+msgstr "Möchten Sie Ihre persönlichen Daten mit %s teilen?"
+
+#: src/accountdialog.c:275
+msgid "Share your personal information with the requesting application?"
+msgstr ""
+"Möchten Sie Ihre persönlichen Daten mit der anfragenden Anwendung teilen?"
+
+#: src/accountdialog.ui:10
+msgid "Share Details"
+msgstr "Details freigeben"
+
+#: src/accountdialog.ui:14 src/appchooserdialog.ui:14
+#: src/dynamic-launcher.c:267 src/filechooser.c:468
+msgid "_Cancel"
+msgstr "Abbre_chen"
+
+#: src/accountdialog.ui:22
+msgid "_Share"
+msgstr "_Teilen"
+
+#: src/accountdialog.ui:148
+msgid "Make changes before sharing the information"
+msgstr "Änderungen vor der Freigabe der Informationen durchführen"
+
+#: src/appchooserdialog.c:229
+msgid "Failed to start Software"
+msgstr "Software konnte nicht gestartet werden"
+
+#: src/appchooserdialog.c:385
+#, c-format
+msgid "Choose an application to open the file “%s”."
+msgstr "Wählen Sie eine Anwendung zum Öffnen der Datei »%s«."
+
+#: src/appchooserdialog.c:390
+msgid "Choose an application."
+msgstr "Eine Anwendung wählen."
+
+#: src/appchooserdialog.c:407
+#, c-format
+msgid ""
+"No apps installed that can open “%s”. You can find more applications in "
+"Software"
+msgstr ""
+"Es sind keine Anwendungen installiert, die »%s« öffnen können. Weitere "
+"Anwendungen finden Sie unter Software"
+
+#: src/appchooserdialog.c:412
+msgid "No suitable app installed. You can find more applications in Software."
+msgstr ""
+"Keine passende Anwendung installiert. Weitere Anwendungen finden Sie unter "
+"Software."
+
+#: src/appchooserdialog.ui:10
+msgid "Open With…"
+msgstr "Öffnen mit …"
+
+#: src/appchooserdialog.ui:23 src/filechooser.c:463
+msgid "_Open"
+msgstr "_Öffnen"
+
+#: src/appchooserdialog.ui:115
+msgid "No Apps available"
+msgstr "Keine Anwendungen verfügbar"
+
+#: src/appchooserdialog.ui:159
+msgid "_Find More in Software"
+msgstr "_Finden Sie mehr in Software"
+
+#: src/dynamic-launcher.c:259
+msgid "Create Web Application"
+msgstr "Web-Anwendung erstellen"
+
+#: src/dynamic-launcher.c:261
+msgid "Create Application"
+msgstr "Anwendung erstellen"
+
+#: src/dynamic-launcher.c:269
+msgid "C_reate"
+msgstr "E_rstellen"
+
+#: src/filechooser.c:463
+msgid "_Select"
+msgstr "Au_swählen"
+
+#: src/filechooser.c:465
+msgid "_Save"
+msgstr "_Speichern"
+
+#: src/filechooser.c:647
+msgid "Open files read-only"
+msgstr "Dateien schreibgeschützt öffnen"
+
+#: src/settings.c:216
+msgid "Requested setting not found"
+msgstr "Angeforderte Einstellung nicht gefunden"
+
+#: src/wallpaperdialog.ui:13
+msgid "Set Background"
+msgstr "Hintergrund festlegen"
+
+#: src/wallpaperdialog.ui:26
+msgid "Set"
+msgstr "Festlegen"
+
+#: src/wallpaperdialog.ui:57
+msgid "Failed to load image file"
+msgstr "Bilddatei konnte nicht geladen werden"
+
+#: src/wallpaperpreview.ui:57
+msgid "Activities"
+msgstr "Aktivitäten"
+
+#, c-format
+#~ msgid "“%s” is running in the background"
+#~ msgstr "»%s« läuft im Hintergrund"
+
+#~ msgid ""
+#~ "This might be for a legitimate reason, but the application has not "
+#~ "provided one.\n"
+#~ "\n"
+#~ "Note that forcing an application to quit might cause data loss."
+#~ msgstr ""
+#~ "Dies könnte einen legitimen Grund haben, aber die Anwendung hat keinen "
+#~ "solchen angegeben.\n"
+#~ "\n"
+#~ "Beachten Sie, dass das erzwungene Beenden einer Anwendung zu Datenverlust "
+#~ "führen kann."
+
+#~ msgid "Force quit"
+#~ msgstr "Beenden erzwingen"
+
+#~ msgid "Allow"
+#~ msgstr "Erlauben"
+
+#~ msgid "Background activity"
+#~ msgstr "Hintergrundaktivität"
+
+#~ msgid "Find out more"
+#~ msgstr "Mehr dazu erfahren"
+
+#~ msgid "Pointer"
+#~ msgstr "Zeiger"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tastatur"
+
+#~ msgid "Touch screen"
+#~ msgstr "Tastbildschirm"
+
+#, c-format
+#~ msgid "Select devices to share with %s"
+#~ msgstr "Geräte auswählen, die mit %s geteilt werden sollen"
+
+#~ msgid "Select devices to share with the requesting application"
+#~ msgstr ""
+#~ "Geräte auswählen, die mit der anfragenden Anwendung geteilt werden sollen"
+
+#~ msgid "Remote desktop"
+#~ msgstr "Entfernter Bildschirm"
+
+#~ msgid "Screen Share"
+#~ msgstr "Bildschirm teilen"
+
+#, c-format
+#~ msgid "Select monitor to share with %s"
+#~ msgstr "Bildschirm auswählen, der mit %s geteilt werden soll"
+
+#, c-format
+#~ msgid "Select window to share with %s"
+#~ msgstr "Fenster auswählen, das mit %s geteilt werden soll"
+
+#~ msgid "Select monitor to share with the requesting application"
+#~ msgstr ""
+#~ "Bildschirm auswählen, der mit der anfragenden Anwendung geteilt werden "
+#~ "soll"
+
+#~ msgid "Select window to share with the requesting application"
+#~ msgstr ""
+#~ "Fenster auswählen, das mit der anfordernden Anwendung geteilt werden soll"
+
+#~ msgid "Single Window"
+#~ msgstr "Einzelnes Fenster"
+
+#~ msgid "Entire Screen"
+#~ msgstr "Gesamter Bildschirm"
+
+#, c-format
+#~ msgid "Share this screenshot with %s?"
+#~ msgstr "Soll dieses Bildschirmfoto mit %s geteilt werden?"
+
+#~ msgid "Share this screenshot with the requesting application?"
+#~ msgstr ""
+#~ "Soll dieses Bildschirmfoto mit der anfragenden Anwendung geteilt werden?"
+
+#~ msgid "Screenshot"
+#~ msgstr "Bildschirmfoto"
+
+#~ msgid "_Options…"
+#~ msgstr "_Optionen …"
+
+#~ msgid "Take _Screenshot"
+#~ msgstr "Bild_schirmfoto aufnehmen"
+
+#~ msgid "Take Screenshot"
+#~ msgstr "Bildschirmfoto aufnehmen"
+
+#~ msgid "Grab the whole sc_reen"
+#~ msgstr "Gesamten _Bildschirm aufnehmen"
+
+#~ msgid "Grab the current _window"
+#~ msgstr "Aktuelles _Fenster aufnehmen"
+
+#~ msgid "Select _area to grab"
+#~ msgstr "Aufnahmebereich _auswählen"
+
+#~ msgid "Grab after a _delay of"
+#~ msgstr "Bildschirmfoto _verzögert aufnehmen nach"
+
+#~ msgid "seconds"
+#~ msgstr "Sekunden"
+
+#~ msgid "Effects"
+#~ msgstr "Effekte"
+
+#~ msgid "Include _pointer"
+#~ msgstr "_Zeiger einbeziehen"
+
+#~ msgid "Include the window _border"
+#~ msgstr "Fensterrahmen ein_beziehen"
+
+# soll nicht übersetzt werden
+#~ msgid "applications-system-symbolic"
+#~ msgstr "applications-system-symbolic"
+
+#, c-format
+#~ msgid ""
+#~ "Select an application to open “%s”. More applications are available in <a "
+#~ "href='software'>Software.</a>"
+#~ msgstr ""
+#~ "Wählen Sie eine Anwendung zum Öffnen von »%s«. Weitere Anwendungen sind "
+#~ "in <a href='software'>Software</a> verfügbar."
+
+#~ msgid ""
+#~ "Select an application. More applications are available in <a "
+#~ "href='software'>Software.</a>"
+#~ msgstr ""
+#~ "Wählen Sie eine Anwendung. Weitere Anwendungen sind in <a "
+#~ "href='software'>Software</a> verfügbar."
+
+#~ msgid "Unable to find a suitable application."
+#~ msgstr "Es kann keine passende Anwendung gefunden werden."
+
+#~ msgid "No Applications Found"
+#~ msgstr "Keine Anwendungen gefunden"
+
+#~ msgid "Find Compatible Applications in Software"
+#~ msgstr "Kompatible Anwendungen in Software suchen"
+
+#~ msgid "Screen casting"
+#~ msgstr "Bildschirmaufzeichnung"

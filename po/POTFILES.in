@@ -1,0 +1,13 @@
+# List of source files containing translatable strings.
+data/xdg-desktop-portal-gtk.desktop.in.in
+src/access.c
+src/accountdialog.c
+src/accountdialog.ui
+src/appchooserdialog.c
+src/appchooserdialog.ui
+src/dynamic-launcher.c
+src/filechooser.c
+src/settings.c
+src/wallpaperdialog.c
+src/wallpaperdialog.ui
+src/wallpaperpreview.ui
